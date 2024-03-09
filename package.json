@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "axios": "^1.6.7",
+    "ejs": "^3.1.9",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-mailer": "^0.3.1",
+    "firebase": "^10.8.0",
+    "firebase-admin": "^12.0.0",
+    "kkiapay": "^2.0.23",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
